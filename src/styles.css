@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&display=swap");
+
+/* VARIABLES */
+:root {
+  /* fonts */
+  --head-font: "Fredoka One", cursive;
+  --body-font: "Montserrat", sans-serif;
+
+  /* colors */
+  --back: #fbfaf9;
+  --pink0: #faf0f3;
+  --pink1: #f7d6e0;
+  --pink2: #f2b5d4;
+  --pink3: #f157a4;
+}
+
+/* BODY */
+body {
+  background-color: var(--back);
+  font-family: var(--body-font);
+  text-align: center;
+  margin: 0;
+}
+
+/* NAV */
+.navbar {
+  background-color: var(--pink1);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.nav-head {
+  font-family: var(--head-font);
+  color: var(--pink3);
+  font-size: 35px;
+  letter-spacing: 1px;
+  word-spacing: 7px;
+  padding: 2rem;
+  margin: 0;
+}
+
+/* APP BODY */
+.app-body {
+  max-width: 650px;
+  display: block;
+  padding: 2rem;
+  margin: auto;
+}
+
+/* emoji input box */
+.emoji-input {
+  background-color: var(--pink0);
+  outline: none;
+  resize: none;
+  min-width: 50%;
+  padding: 1rem;
+  border: 2px solid var(--pink2);
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+.emoji-input::placeholder {
+  color: #999999;
+}
+
+/* meaning display */
+.meaning-output {
+  background-color: var(--pink3);
+  min-width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.meaning-output-text {
+  color: var(--pink0);
+  font-family: var(--head-font);
+  font-size: 25px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  padding: 1rem;
+}
+
+/* emoji pallete */
+.emoji-pallete {
+  min-width: 100%;
+}
+
+.emoji-pallete-text {
+  color: #999999;
+  font-size: 12px;
+  padding: 0.2rem;
+}
+
+.emoji-pallete-list {
+  padding: 1rem;
+  border: 3.5px solid var(--pink2);
+  border-radius: 2rem;
+}
+
+.emoji {
+  font-size: 40px;
+  padding: 0.5rem;
+  line-height: 4.5rem;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--pink1);
+  margin-top: 0.5rem;
+}
+
+.footer-head {
+  color: var(--pink3);
+  font-family: var(--head-font);
+  letter-spacing: 1px;
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.footer-text {
+  color: #777777;
+  max-width: 650px;
+  padding: 0.5rem 2rem 1.5rem 2rem;
+  margin: 0rem auto;
+}
