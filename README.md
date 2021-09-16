@@ -1,4 +1,4 @@
-# Emoji-Interpreter
+# Emoji Interpreter
 
 ReactJs app created with CodeSandbox.
 Hosted on Netlify.
